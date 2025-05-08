@@ -165,9 +165,9 @@ In a couple days now I am going to try to get our breadboard demo onto our PCB 3
 
 During the TA meeting we just went over our current progress and what we have left in the project. We still have to figure out the load cell everything else works fine.
 
-I just complete the Team Contract Assesment also. Not much was done in terms of design this week.
+I just completed the Team Contract Assesment also. Not much was done in terms of design this week.
 
-My team and I met up again to get the breadbaord demo onto PCB 3. We ended up getting that to work.
+My team and I met up again to get the breadbaord demo onto PCB 3. We ended up getting that to work. All we had to do was just upload the code. Next week I am aiming to get the entire project working on order 3 if we do not get order 4 in time.
 
 ## Week 14 - 4/21 - 4/27
 

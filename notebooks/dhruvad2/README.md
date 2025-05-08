@@ -191,6 +191,12 @@ To make sure that the heating and load cell were working as intended we run 1 te
 
 These results fit what we expected. Several other tests were ran on the RFID, keypad, lock, and temprature sensor using print statements to the serial monitor. All results were what we expected.
 
+The final wesbite that we made is below:
+
+![Final Website](Final_website.png)
+
+The physical box will be in the front page README
+
 ## Week 15 - 4/28 - 5/4
 
 We presenseted our final demo and it went well. Everything worked as it should have. One thing I wish I could have changed though was the RFID sensor hanging as it made it look a little worse, but with the setup we had we had no other choice. Now we have to create our presentation and do the mock presentation.

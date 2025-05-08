@@ -212,7 +212,7 @@ We presenseted our final demo and it went well. Everything worked as it should h
 
 2 days later and we are now working on the presentation. It was not that hard because we already made the entire PCB. We just split up the slides where I did the control subsystem, Authentication Subsystem, Original Design vs Final Design, and Conclusion. Rohan did the Heating, box mechanincs, Requiremnts and Verification. Taniah did the Power, intro, and user interface. The same day we recorded our extra credit video. 
 
-The next day we had the mock presentation. We presented what we had so far and the feedback we got was to make more eye contact, include a short video, and to add graphs to our presentation. We ended making these changes.
+The next day we had the mock presentation. We presented what we had so far and the feedback we got was to make more eye contact, include a short video, and to add graphs to our presentation. We will make these changes before the final presentation.
 
 ## Week 16 - 5/5 - 5/8
 

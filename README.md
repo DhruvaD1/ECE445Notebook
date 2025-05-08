@@ -6,9 +6,9 @@
 The goal of this project is to increase the security of food being delivered by allowing the driver to put the food in a secure locked box. The box can also keep food warm while you are on your way to get it.
 
 ### Team members:
-- [Dhruva Dammanna]
-- [Rohan Samudrala]
-- [Taniah Napier]
+- Dhruva Dammanna
+- Rohan Samudrala
+- Taniah Napier
 
 ---
 

@@ -171,6 +171,11 @@ My team and I met up again to get the breadbaord demo onto PCB 3. We ended up ge
 
 ## Week 14 - 4/21 - 4/27
 
+
+Here is the final block diagram that we made before the final demo. It reflects 100% of what we ended up demoing. All of us worked on this block diagram.
+
+![Final Block Diagram](Final_block_diagram.png)
+
 We presented the breadboard demo working on our PCB 3 for the Mock Demo. A lot of work still has to be done for the Final Demo. 
 
 Togther as a team we tried to get the Load Cell to work the with the HX711. After a long debugging session we got it to work and calibrated it properly to detect a weight of 40 grams or more. This is the last subsystem we had to test. In theory everything should work. Also this same day I decided we should ditch using the nichrome heater as it is a exposed wire that can heat to 400 degrees celsius. This is very dangerous, so I decided to use a polymide heater instead. The wiring is the exact same between the two, so no changes need to be made to the PCB. They are both just resistors that get hot that is all. The polymide heater does not expose the actual wire making it much safer.
@@ -201,13 +206,12 @@ Here is the flow chart (Pseudocode) of the logic for the final demo, we used thi
 
 The physical box will be in the front page README
 
+
 ## Week 15 - 4/28 - 5/4
 
 We presenseted our final demo and it went well. Everything worked as it should have. One thing I wish I could have changed though was the RFID sensor hanging as it made it look a little worse, but with the setup we had we had no other choice. Now we have to create our presentation and do the mock presentation.
 
-2 days later and we are now working on the presentation. It was not that hard because we already made the entire PCB. We just split up the slides where I did the control subsystem, Authentication Subsystem, Original Design vs Final Design, and Conclusion. Rohan did the Heating, box mechanincs, Requiremnts and Verification. Taniah did the Power, intro, and user interface. The same day we recorded our extra credit video. Here is the final block diagram that we made today. It reflects 100% of what we ended up making
-
-![Final Block Diagram](Final_block_diagram.png)
+2 days later and we are now working on the presentation. It was not that hard because we already made the entire PCB. We just split up the slides where I did the control subsystem, Authentication Subsystem, Original Design vs Final Design, and Conclusion. Rohan did the Heating, box mechanincs, Requiremnts and Verification. Taniah did the Power, intro, and user interface. The same day we recorded our extra credit video. 
 
 The next day we had the mock presentation. We presented what we had so far and the feedback we got was to make more eye contact, include a short video, and to add graphs to our presentation. We ended making these changes.
 

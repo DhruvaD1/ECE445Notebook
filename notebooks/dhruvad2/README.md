@@ -171,11 +171,6 @@ My team and I met up again to get the breadbaord demo onto PCB 3. We ended up ge
 
 ## Week 14 - 4/21 - 4/27
 
-
-Here is the final block diagram that we made before the final demo. It reflects 100% of what we ended up demoing. All of us worked on this block diagram.
-
-![Final Block Diagram](Final_block_diagram.png)
-
 We presented the breadboard demo working on our PCB 3 for the Mock Demo. A lot of work still has to be done for the Final Demo. 
 
 Togther as a team we tried to get the Load Cell to work the with the HX711. After a long debugging session we got it to work and calibrated it properly to detect a weight of 40 grams or more. This is the last subsystem we had to test. In theory everything should work. Also this same day I decided we should ditch using the nichrome heater as it is a exposed wire that can heat to 400 degrees celsius. This is very dangerous, so I decided to use a polymide heater instead. The wiring is the exact same between the two, so no changes need to be made to the PCB. They are both just resistors that get hot that is all. The polymide heater does not expose the actual wire making it much safer.
@@ -208,6 +203,10 @@ The physical box will be in the front page README
 
 
 ## Week 15 - 4/28 - 5/4
+
+Here is the final block diagram that we made before the final demo. It reflects 100% of what we ended up demoing. All of us worked on this block diagram.
+
+![Final Block Diagram](Final_block_diagram.png)
 
 We presenseted our final demo and it went well. Everything worked as it should have. One thing I wish I could have changed though was the RFID sensor hanging as it made it look a little worse, but with the setup we had we had no other choice. Now we have to create our presentation and do the mock presentation.
 

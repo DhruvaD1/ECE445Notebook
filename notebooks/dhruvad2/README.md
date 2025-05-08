@@ -216,3 +216,5 @@ First thing we did this week was pressent our presentation. It went well, I feel
 The day after the presentation we started working on the final paper. The final paper seems pretty long, but it is just getting eveything we did together pretty much. We split up the paper, I worked on the Control Subsystem, Power Subsystem, User Interface Subsystem, Physical Box Design, and helped in various other areas as well.
 
 On 5/7 we finished the final paper and turned it in. Pretty much done with this class now. Enjoyed it and enjoyed building our project the secure food delivery drop box.
+
+Just finished up the Lab Checkout. Returned everything.

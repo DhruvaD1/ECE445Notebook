@@ -12,7 +12,7 @@ This week I formed a group for the class and we talked for a long time about var
 
 This week we decided to develop a secure food delivery dropbox. The idea came from the secure mail delivery project I thought of in Week 1. To make it more unique and complex, we decided on a secure food delivery dropbox instead.
 
-Some of the specifics of the project still have to be decided, as we don't yet know how everything works. We got the project approved and are working on the proposal right now.
+Some of the specifics of the project still have to be decided, as we don't yet know how everything works. We got the project approved and are working on the proposal right now. All of us are doing every part I have been working on the control, box mechanics, and heaating mostly. Taniah and Rohan have been working on the other parts as well as helping me on these two.
 
 I also did the CAD assignment, which helped me learn how KiCad works. I am currently working on the soldering assignment and am almost done. It has been pretty hard learning to solder.
 
@@ -55,7 +55,7 @@ Rohan ordered some of the parts this week as well that we needed.
 
 This week was spent just working on the PCB and schematic for our first PCB order. It has been hard figuring out the circuits for each component, but we are getting it slowly. I have been doing most of the schematic and PCB deisgn. I realized the schematic to program the ESP 32 I made in week 5 was wrong and decided to complety change it, but the power cirucits I made are still write to my understanding. 
 
-One thing I saw about our orginal design for our power subsystem was that we were dropping directly from 12V to 3.3V with and LDO. This is not good. So for this PCB i added a buck indebetween to go from 12 - 5 and then 5 - 3.3. Too much heat will generate if I went with 12- 3.3 here is an equation showing the power lost to heat for both situation:
+One thing I saw about our orginal design for our power subsystem was that we were dropping directly from 12V to 3.3V with and LDO. This is not good. So for this PCB i added a buck indebetween to go from 12V - 5V and then 5V - 3.3V. Too much heat will generate if I went with 12V - 3.3V here is an equation showing the power lost to heat for both situation:
 
 P<sub>heat</sub> = (V<sub>in</sub> − V<sub>out</sub>) × I<sub>load</sub>
 
@@ -97,7 +97,7 @@ I am going to look into the subsystems next week that I made the assumptions abo
 
 This week we did the breadboard demo and it went well. We showed what we needed in the demo and we also talked about changing the fingerprint sensor to something else. The professor was ok with that so we gotta figure out what we will change that too. I am thinking about using an RFID but I have to research that more.
 
-The biggest issue this week was that we could not get the load cell to work. We tried a bunch of different things, but we came the the conclusion that the chip we used to interface with the load cell was not right. We decided to change the chip from an INA125PA to an HX711 because there was much more information about this chip. We ordered the HX711 breakout board and HX711 chip to see if we could get the load cell to work with that.
+The biggest issue this week was that we could not get the load cell to work. We tried a bunch of different things, but we came the the conclusion that the chip we used to interface with the load cell was not right. We decided to change the chip from an INA125PA to an HX711 because there was much more information about this chip. We ordered the HX711 breakout board and HX711 chip to see if we could get the load cell to work with that. I found this library that we can use to for the HX711 [https://github.com/RobTillaart/HX711](https://github.com/RobTillaart/HX711)
 
 This week I also did a majority of PCB order 2's design. After I finished most of the design we all met up to finalize it. I deciced to change the usb-c to a micro usb because it is easier to solder. I also added ESD protection to the micro usb so that we will not fry to board by touching it. And then based on the what we think is wrong with the load cell I decided to add the cirucit for the HX711 chip instead of the INA125PA. Below are the Schematic and PCB layout for PCB order 2.
 
@@ -114,7 +114,7 @@ This week we decided to use an RFID sensor instead of a fingerpint sensor for ou
 
 During the TA meeting we talked about this and we came to the decision that this was ok to do because RFID works almost all the time and it is very rare that it would fail.
 
-After this I tested the MCRC522 RFID Reader that we were given from our TA on a breadboard with the ESP 32 devboard. It ended up working as intended, so we were happy with the result. It took some time for me to get it working as SPI communcation can not be used with every GPIO pin of the ESP 32. I was using the wrong pin for a long time, but I eventually got it to work. I wrote code to scan for a certain UID and if that UID is scanned it will print unlocked else it will print incorrect UID.
+After this I tested the MCRC522 RFID Reader that we were given from our TA on a breadboard with the ESP 32 devboard. It ended up working as intended, so we were happy with the result. It took some time for me to get it working as SPI communcation can not be used with every GPIO pin of the ESP 32. I was using the wrong pin for a long time, but I eventually got it to work. I wrote code to scan for a certain UID and if that UID is scanned it will print unlocked else it will print incorrect UID. I am using this library for the MCRC522 [ https://github.com/makerspaceleiden/rfid](https://github.com/makerspaceleiden/rfid). It has everything that we need im pretty sure.
 
 I also looked into the physical PCB we got from PCB order 1, but I realized that the usb-c we bought will not work because it will not fit the footprint. So this PCB is pretty much can not be programmed.
 

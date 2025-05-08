@@ -213,7 +213,7 @@ The next day we had the mock presentation. We presented what we had so far and t
 
 First thing we did this week was pressent our presentation. It went well, I feel like we could have talked about the tolerance for the power subsystem more though. Not many questions were asked after the presentation. Aside from that it went well. 
 
-The day after the presentation we started working on the final paper. The final paper seems pretty long, but it is just getting eveything we did together pretty much. We split up the paper, I worked on the Control Subsystem, Power Subsystem, User Interface Subsystem, Physical Box Design, and helped in various other areas as well.
+The day after the presentation we started working on the final paper. The final paper seems pretty long, but it is just getting eveything we did together pretty much. We split up the paper, I worked on the Control Subsystem, Power Subsystem, User Interface Subsystem, Physical Box Design, and helped in various other areas as well. Taniah worked on the conclusion, formatting, scheduele, and introduction. Rohan worked on the Authenticaon subsystem, Heating subsystem, and Box mechanics sections.
 
 On 5/7 we finished the final paper and turned it in. Pretty much done with this class now. Enjoyed it and enjoyed building our project the secure food delivery drop box.
 

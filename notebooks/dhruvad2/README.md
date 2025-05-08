@@ -79,7 +79,7 @@ Our TA meeting was just a general meeting going over our design and our progress
 
 ## Week 7 - 3/3 - 3/9
 
-This week was mostly focused on testing our circuit on a breadboard. This helped a lot because it allowed us to see if what we ordered was right. After some testing on the breadboard I realized that many parts of our PCB wont work such as the heater and lockas the BJT setup for both of those was wrong. One issues that we ran into this week also was that the fingerpint sensor would sometimes not recognize a correct input. We realized this after prseneting our propsal, but we did not realize it would be this innacurate, so we need to think of somethings else.
+This week was mostly focused on testing our circuit on a breadboard. This helped a lot because it allowed us to see if what we ordered was right. After some testing on the breadboard I realized that many parts of our PCB wont work such as the heater and locks the BJT setup for both of those was wrong. One issues that we ran into this week also was that the fingerpint sensor would sometimes not recognize a correct input. We realized this after prseneting our propsal, but we did not realize it would be this innacurate, so we need to think of somethings else.
 
 I started working on the code for the breadbaord demo also this week. I did a good chunk of it already. I also decided to change the user interface to a website instead of a comptuer program this week because it is more convinent for the user to use that over a program on a computer. I got the temprature sensor, keypad, website coded up bymyself. And then all of us met up to get the lock working as that was confusing to us. Eventually after a long debugging session we got it working. So with this I added some code into the existing code to get the lock in the code. Below is the front end of the website that I coded up. As well as a picture of the dev board used for the breadboard demo as well as some of the wiring for the demo. I found these open source libraries for the keypad and temprature sensor to use [https://github.com/adafruit/Adafruit_Keypad](https://github.com/adafruit/Adafruit_Keypad) and [https://github.com/milesburton/Arduino-Temperature-Control-Library](https://github.com/milesburton/Arduino-Temperature-Control-Library)
 
@@ -90,7 +90,7 @@ I started working on the code for the breadbaord demo also this week. I did a go
 
 Our TA meeting was focused on what the breadboard demo will be like and what is expected of us next week during the demo. We clarified what we were going to do for the breadboard demo and our TA was ok with that.
 
-I also did the Team Work Evaluation. The rest of the time we all worked on the design document. The design document was hard to complete because we had to make a lot of assumptions about our design without knowing if it would work or not. We decided to use what we had so far from the breadbaord demo and make assumptions that the setup for the heater, load cell, and fingerprint sensor (Or what we chose to change with) would work the way we intended.
+I also did the Team Work Evaluation. The rest of the time we all worked on the design document. The design document was hard to complete because we had to make a lot of assumptions about our design without knowing if it would work or not. We split up the design doc the same way we split up the proposal. We each did parts of it, but we helped eachother when needed. We decided to use what we had so far from the breadbaord demo and make assumptions that the setup for the heater, load cell, and fingerprint sensor (Or what we choose to change with) would work the way we intended.
 
 I am going to look into the subsystems next week that I made the assumptions about. I want to get it working on a breadboard before I make the design on a PCB.
 ## Week 8 - 3/10 - 3/16
@@ -99,7 +99,7 @@ This week we did the breadboard demo and it went well. We showed what we needed 
 
 The biggest issue this week was that we could not get the load cell to work. We tried a bunch of different things, but we came the the conclusion that the chip we used to interface with the load cell was not right. We decided to change the chip from an INA125PA to an HX711 because there was much more information about this chip. We ordered the HX711 breakout board and HX711 chip to see if we could get the load cell to work with that. I found this library that we can use to for the HX711 [https://github.com/RobTillaart/HX711](https://github.com/RobTillaart/HX711)
 
-This week I also did a majority of PCB order 2's design. After I finished most of the design we all met up to finalize it. I deciced to change the usb-c to a micro usb because it is easier to solder. I also added ESD protection to the micro usb so that we will not fry to board by touching it. And then based on the what we think is wrong with the load cell I decided to add the cirucit for the HX711 chip instead of the INA125PA. Below are the Schematic and PCB layout for PCB order 2.
+This week I also did a majority of PCB order 2's design. After I finished most of the design we all met up to finalize it. I deciced to change the usb-c to a micro usb because it is easier to solder. I also added ESD protection to the micro usb so that we will not fry to board by touching it. And then based on the what we think is wrong with the load cell I decided to add the cirucit for the HX711 chip instead of the INA125PA. Below are the Schematic and PCB layout for PCB order 2. Rohan and Taniah helped a little bit in just verifying the design, but not much work was needed here.
 
 ![Week 8 Schematic](order28.png)
 ![Week 8 PCB](order28p.png)
@@ -179,7 +179,7 @@ PCB 4 finally came in a couple of days after the load cell started working. As s
 
 Now its the next day we got most of the program to work the way we intended to. Everything works, expect for the RFID sensor and the keypad for some reason. We have to meet again tomorrow because the final demo is coming up and we are on the first day.
 
-So we figured out the issue with the keypad, it is that we are not allowing enough time for the software deboucing in the code to allow for the key presses to be read properly. So before adding enough time all presses were not being read now all presses are being read. We also just solved the problem with the RFID. It is that the RFID emmits EMI waves to be able to read RFID tags. The issue is that our RFID reader is sitting ontop of the PCB which causes problems. To fix this all we did was move the RFID away from the PCB and it started working. Everything is now working as it should for the final demo which is good. We also went over how exactly to do the final demo. Below is our final PCB
+So we all worked together and figured out the issue with the keypad, it is that we are not allowing enough time for the software deboucing in the code to allow for the key presses to be read properly. So before adding enough time all presses were not being read now all presses are being read. We also just solved the problem with the RFID. It is that the RFID emmits EMI waves to be able to read RFID tags. The issue is that our RFID reader is sitting ontop of the PCB which causes problems. To fix this all we did was move the RFID away from the PCB and it started working. Everything is now working as it should for the final demo which is good. We also went over how exactly to do the final demo. Below is our final PCB
 
 ![Week 14 PCB](Final_PCB.png)
 
@@ -201,6 +201,7 @@ Here is the flow chart (Pseudocode) of the logic for the final demo, we used thi
 
 The physical box will be in the front page README
 
+We all know what to do for the final demo and are all ready for the final demo.
 
 ## Week 15 - 4/28 - 5/4
 

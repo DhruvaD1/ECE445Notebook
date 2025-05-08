@@ -148,6 +148,12 @@ So PCB order 4 is due this week. I decided to go through with using breakout boa
 ![Week 12 Schematic](SCH4.png)
 ![Week 12 PCB](PCB4.png)
 
+
+Because the AMS 1117 3.3 has 800mA max I made the decision to have 2 of them on the PCB one for the ESP and one for everything else using 3.3V. This also allows the noise from other 3.3V things to not impact the ESP 32 wifi. Below is a graph from the AMS 1117 data sheet showing the max current is 800mA and the ripple detection gets worse the more current being drawn. 
+
+![AMS graphs](800mA.png)
+
+
 This design also is a lot more simple than the other ones that I made. The reason I did this is to make the soldering easier and also less areas for errors. Hopefully these design choice lead to that.
 
 We had our TA meeting after the orders went through and I showed our TA the PCB's ordered and he said they looked good. Now we are just waiting for them.

@@ -195,6 +195,10 @@ The final wesbite that we made is below:
 
 ![Final Website](Final_website.png)
 
+Here is the flow chart(Pseudocode) of the logic of the program we wrote:
+
+![Final Website](Flow_chart.png)
+
 The physical box will be in the front page README
 
 ## Week 15 - 4/28 - 5/4
